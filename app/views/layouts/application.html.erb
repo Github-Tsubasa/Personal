@@ -1,15 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Personal</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <title>Waq-Waq</title>
+    <%# <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%# <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %> 
+    <%# <%= csrf_meta_tags %> 
+    <%# <script type="text/javascript"> %>
+      <%# WebFontConfig = { %>
+        <%# google: { families: [ 'Unica+One::latin' ] } %>
+      <%# }; %>
+      <%# (function() { %>
+        <%# var wf = document.createElement('script'); %>
+        <%# wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + %>
+          <%# '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; %>
+        <%# wf.type = 'text/javascript'; %>
+        <%# wf.async = 'true'; %>
+        <%# var s = document.getElementsByTagName('script')[0]; %>
+        <%# .parentNode.insertBefore(wf, s); %>
+      <%# })(); %>
+    <%# </script> %> 
   </head>
 
   <body>
+    <header class="header">
+      <div class="header__bar row">
+        <h1 class="grid-6"><a href="/">Waq-Waq</a></h1>
+        <div class="user_nav grid-6">
+          <%# <a class="post" href="/tweets/new">投稿する</a> %>
+        </div>
+      </div>
+    </header>
+
+    <div class="prefecture">
+      <a href="/">北海道</a>
+      <div>青森県</div>
+      <div>岩手県</div>
+      <div>秋田県</div>
+      <div>宮城県</div>
+      <div>山形県</div>
+      <div>福島県</div>
+      <div>茨城県</div>
+      <div>栃木県</div>
+      <div>群馬県</div>
+      <div>千葉県</div>
+      <div>埼玉県</div>
+      <div>東京都</div>
+      <div>神奈川県</div>
+      <div>新潟県</div>
+      <div>長野県</div>
+      <div>静岡県</div>
+      <div>富山県</div>
+      <div>岐阜県</div>
+      <div>愛知県</div>
+      <div>石川県</div>
+      <div>福井県</div>
+      <div>滋賀県</div>
+      <div>京都府</div>
+      <div>大阪府</div>
+      <div>奈良県</div>
+      <div>三重県</div>
+      <div>和歌山県</div>
+      <div>兵庫県</div>
+      <div>鳥取県</div>
+      <div>岡山県</div>
+      <div>島根県</div>
+      <div>広島県</div>
+      <div>山口県</div>
+      <div>香川県</div>
+      <div>徳島県</div>
+      <div>愛媛県</div>
+      <div>高知県</div>
+      <div>福岡県</div>
+      <div>佐賀県</div>
+      <div>長崎県</div>
+      <div>熊本県</div>
+      <div>大分県</div>
+      <div>宮崎県</div>
+      <div>鹿児島県</div>
+      <div>沖縄県</div>
+
+    </div>
+
+
     <%= yield %>
+
+    
   </body>
 </html>
