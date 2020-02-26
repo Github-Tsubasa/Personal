@@ -106,52 +106,129 @@ h1,h2,h3,h4,h5,h6 {
 
 .japanese-archipelago{
   .prefecture{
-    .hokkaido{}
-    .aomori{}
-    .iwate{}
-    .akita{}
-    .miyagi{}
-    .yamagata{}
-    .fukushima{}
-    .ibaraki{}
-    .tochigi{}
-    .gunma{}
-    .chiba{}
-    .saitama{}
-    .tokyo{}
-    .kanagawa{}
-    .niigata{}
-    .nagano{}
-    .shizuoka{}
-    .toyama{}
-    .gifu{}
-    .aichi{}
-    .ishikawa{}
-    .fukui{}
-    .shiga{}
-    .kyoto{}
-    .osaka{}
-    .nara{}
-    .mie{}
-    .wakayama{}
-    .hyogo{}
-    .okayama{}
-    .shimane{}
-    .hiroshima{}
-    .yamaguchi{}
-    .kagawa{}
-    .tokushima{}
-    .ehime{}
-    .kochi{}
-    .fukuoka{}
-    .saga{}
-    .nagasaki{}
-    .kumamoto{}
-    .oita{}
-    .miyazaki{}
-    .kagoshima{}
-    .okinawa{}
+    .hokkaido{
+      .hokkaido{}
+    }
 
+    .tohoku{
+      .upper{
+        .aomori{}
+      }
+      .left{
+        .akita{}
+        .yamagata{}
+      }
+      .right{
+        .iwate{}
+        .miyagi{}
+      }
+      .lowwer{
+        .fukushima{}
+      }
+    }
+    
+    .kanto{
+      .upper{
+        .gunma{}
+        .tochigi{}
+        .ibaraki{}
+      }
+      .lower{
+        .left{
+          .saitama{}
+          .tokyo{}
+          .kanagawa{}  
+        }
+        .right{
+          .chiba{}
+        }
+      }
+    }
+    
+    .chubu{
+      .upper{
+        .fukui{}
+        .ishikawa{}
+        .toyama{}
+        .niigata{}
+      }
+      .center{
+        .gifu{}
+        .nagano{}
+        .yamanashi{}
+      }
+      .lower{
+        .aichi{}
+        .shizuoka{}
+      }
+    }
+
+    .kinki{
+      .left{
+        .hyogo{}
+      }
+      .right{
+        .upper{
+          .kyoto{}
+          .shiga{}
+        }
+        .center{
+          .osaka{}
+          .nara{}
+          .mie{}
+        }
+        .lowwer{
+          .wakayama{}
+        }
+      }
+    }
+    
+    .chugoku{
+      .left{
+        .yamaguchi{}
+      }
+      .center{
+        .shimane{}
+        .hiroshima{}
+      }
+      .right{
+        .tottori{}
+        .okayama{}
+      }
+    }
+ 
+    .shikoku{
+      .left{
+          .ehime{}
+          .kochi{}
+        }
+      .right{
+        .kagawa{}
+        .tokushima{}
+      }
+    }
+ 
+    .kyushu{
+      .upper{
+        .fukuoka{}
+        .saga{}
+        .nagasaki{}
+      }
+
+      .center{
+        .kumamoto{}
+        .oita{}
+      }
+
+      .lowwer{
+        .miyazaki{}
+        .kagoshima{}
+      }
+
+      .okinawa{
+        .okinawa{}
+      }
+    } 
   }
 }
 
