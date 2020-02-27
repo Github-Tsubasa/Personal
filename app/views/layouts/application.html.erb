@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="scss/style.scss">
+
   <head>
+    <meta charset="UTF-8">
     <title>Waq-Waq</title>
+
     <%# <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%# <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %> 
     <%# <%= csrf_meta_tags %> 
@@ -25,19 +29,28 @@
     <header class="header">
       <div class="header__bar row">
         <h1 class="grid-6"><a href="/">Waq-Waq</a></h1>
-        <sub-title>思い出で「日本」を埋め尽くそう</sub-title>
-        <div class="user_nav grid-6">
+        <h2>思い出で「日本」を埋め尽くそう</h2>
+        <%# <div class="user_nav grid-6"> %>
           <%# <a class="post" href="/tweets/new">投稿する</a> %>
-        </div>
+        <%# </div> %>
+        <%# <input type="file" id="myImage" accept="image/*"> %>
+          <%# <img id="preview"> %>
       </div>
     </header>
-
 
     <div class="japanese-archipelago">
       <div class="prefecture">
 
         <div class="hokkaido">
           <div class="hokkaido"><a href="/">北海道</a></div>
+          <label for="form__mask__image">北海道:</label>
+          <input class="hidden" type="file" name="message[image]" id="message_image">
+
+
+          <%# <a href="gazou.jpg" target="_blank"><img src="gazou.jpg" width="300" alt="" border="0"></a> %>
+
+
+        
         </div>
 
         <div class="tohoku">
@@ -164,8 +177,8 @@
     </div>
 
 
-    <%= yield %>
 
     
   </body>
 </html>
+    <%= yield %>
