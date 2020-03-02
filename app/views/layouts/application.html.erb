@@ -29,8 +29,10 @@
   <body>
     <header class="header">
       <div class="header__bar row">
-        <h1 class="grid-6">Waq-Waq</a></h1>
-        <h2>思い出で「日本」を埋め尽くそう</h2>
+        <h1 style="font-size:40px;">Waq-Waq</h1>
+          <style></style>
+        <h2 style="font-size:15px;">思い出で「日本」を埋め尽くそう</h2>
+          <%# <style>font-size:40px</style> %>
         <%# <div class="user_nav grid-6"> %>
           <%# <a class="post" href="/tweets/new">投稿する</a> %>
         <%# </div> %>
@@ -41,287 +43,294 @@
 
     <div class="japanese-archipelago">
       <div class="prefecture">
-        <div class="upper">
-          <div class="hokkaido">
-            <div class="hokkaido">
-              <label for="form__mask__image">北海道</label>
-              <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-            </div>
-          </div>
-
-          <div class="tohoku">
-            <div class="upper">
-              <div class="aomori">
-                <label for="form__mask__image">青森県</label>
-                <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-            </div>
-            <div class="center">
-              <div class="left">
-                <div class="akita">
-                  <label for="form__mask__image">秋田県</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-                <div class="yamagata">
-                  <label for="form__mask__image">山形県</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-              </div>
-              <div class="right">
-                <div class="iwate">
-                  <label for="form__mask__image">岩手県</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-                <div class="miyagi">
-                  <label for="form__mask__image">宮城県</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-              </div>
-            </div>
-            <div class="lowwer">
-              <div class="fukushima">
-                <label for="form__mask__image">福島県</label>
-                <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-            </div>
-          </div>
-
-          <div class="kanto">
-            <div class="upper">
-              <div class="gunma">
-                <label for="form__mask__image">群馬県</label>
-                <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-              <div class="tochigi">
-                <label for="form__mask__image">栃木県</label>
-                <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-              <div class="ibaraki">
-                <label for="form__mask__image">茨城県</label>
-                <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-            </div>
-            <div class="lower">
-              <div class="left">
-                <div class="saitama">
-                  <label for="form__mask__image">埼玉県</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-                <div class="tokyo">
-                  <label for="form__mask__image">>東京都</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-                <div class="kanagawa">
-                  <label for="form__mask__image">神奈川県</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-              </div>
-              <div class="right">
-                <div class="chiba">
-                  <label for="form__mask__image">>千葉県</label>
-                  <%# <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="lowwer">
-          <div class="chubu">
-            <div class="upper">
-              <div class="fukui">
-                <label for="form__mask__image">福井県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-              <div class="ishikawa">
-                <label for="form__mask__image">石川県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-              <div class="toyama">
-                <label for="form__mask__image">>富山県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image"> %>
-              </div>
-              <div class="niigata">
-                <label for="form__mask__image">新潟県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-            <div class="center">
-              <div class="left">
-                <div class="gifu">
-                  <label for="form__mask__image">岐阜県</label>
+        <div class="left">
+          <div class="left-westjapan">
+            <div class="kyushu">
+              <div class="kyushu-upper">
+                <div class="fukuoka">
+                  <label for="form__mask__image">福岡県</label>
                   <input class="hidden" type="file" name="message[image]" id="message_image">
                 </div>
               </div>
-              <div class="right">
-                <div class="nagano">
-                  <label for="form__mask__image">長野県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
+              <div class="kyushu-center">
+                <div class="center-upper"> 
+                  <div class="nagasaki">
+                    <label for="form__mask__image">長崎県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="saga">
+                    <label for="form__mask__image">佐賀県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="oita">
+                    <label for="form__mask__image">大分県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
                 </div>
-                <div class="yamanashi">
-                  <label for="form__mask__image">山梨県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                <div class="center-lowwer"> 
+                  <div class="kumamoto">
+                    <label for="form__mask__image">熊本県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="miyazaki">
+                    <label for="form__mask__image">宮崎県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="lowwer">
-              <div class="aichi">
-                <label for="form__mask__image">愛知県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-              <div class="shizuoka">
-                <label for="form__mask__image">静岡県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-          </div>
-
-          <div class="kinki">
-            <div class="left">
-              <div class="hyogo">
-                <label for="form__mask__image">>兵庫県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-            <div class="right">
-              <div class="upper">
-                <div class="kyoto">
-                  <label for="form__mask__image">京都府</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-                <div class="shiga">
-                  <label for="form__mask__image">>滋賀県</label>
+              <div class="kyushu-lowwer">
+                <div class="kagoshima">
+                  <label for="form__mask__image">鹿児島県</label>
                   <input class="hidden" type="file" name="message[image]" id="message_image">
                 </div>
               </div>
-              <div class="center">
-                <div class="osaka">
-                  <label for="form__mask__image">大阪府</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-                <div class="nara">
-                  <label for="form__mask__image">奈良県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-                <div class="mie">
-                  <label for="form__mask__image">三重県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-              </div>
-              <div class="lowwer">
-                <div class="wakayama">
-                  <label for="form__mask__image">和歌山県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="chugoku">
-            <div class="left">
-              <div class="yamaguchi">
-                <label for="form__mask__image">山口県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-            <div class="center">
-              <div class="shimane">
-                <label for="form__mask__image">島根県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-              <div class="hiroshima">
-                <label for="form__mask__image">広島県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-            <div class="right">
-              <div class="tottori">
-                <label for="form__mask__image">鳥取県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-              <div class="okayama">
-                <label for="form__mask__image">岡山県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-          </div>
-
-          <div class="shikoku">
-            <div class="left">
-              <div class="ehime">
-                <label for="form__mask__image">愛媛県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-              <div class="kochi">
-                <label for="form__mask__image">高知県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-            <div class="right">
-              <div class="kagawa">
-                <label for="form__mask__image">香川県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-              <div class="tokushima">
-                <label for="form__mask__image">徳島県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-          </div>
-
-          <div class="kyushu">
-            <div class="upper">
-              <div class="fukuoka">
-                <label for="form__mask__image">福岡県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-            <div class="center">
-              <div class="center-upper"> 
-                <div class="nagasaki">
-                  <label for="form__mask__image">長崎県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-                <div class="saga">
-                  <label for="form__mask__image">佐賀県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-                <div class="oita">
-                  <label for="form__mask__image">大分県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-              </div>
-              <div class="center-lowwer"> 
-                <div class="kumamoto">
-                  <label for="form__mask__image">熊本県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-                <div class="miyazaki">
-                  <label for="form__mask__image">宮崎県</label>
-                  <input class="hidden" type="file" name="message[image]" id="message_image">
-                </div>
-              </div>
-            </div>
-            <div class="lowwer">
-              <div class="kagoshima">
-                <label for="form__mask__image">鹿児島県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
-              </div>
-            </div>
-            <div class="okinawa">
               <div class="okinawa">
-                <label for="form__mask__image">沖縄県</label>
-                <input class="hidden" type="file" name="message[image]" id="message_image">
+                <div class="okinawa">
+                  <label for="form__mask__image">沖縄県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
               </div>
             </div>
+
+            <div class="chugoku-shikoku">
+              <div class="chugoku">
+                <div class="chugoku-left">
+                  <div class="yamaguchi">
+                    <label for="form__mask__image">山口県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="chugoku-center">
+                  <div class="shimane">
+                    <label for="form__mask__image">島根県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="hiroshima">
+                    <label for="form__mask__image">広島県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="chugoku-right">
+                  <div class="tottori">
+                    <label for="form__mask__image">鳥取県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="okayama">
+                    <label for="form__mask__image">岡山県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+              </div>
+
+              <div class="shikoku">
+                <div class="shikoku-left">
+                  <div class="ehime">
+                    <label for="form__mask__image">愛媛県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="kochi">
+                    <label for="form__mask__image">高知県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="shikoku-right">
+                  <div class="kagawa">
+                    <label for="form__mask__image">香川県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="tokushima">
+                    <label for="form__mask__image">徳島県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="kinki">
+              <div class="kinki-left">
+                <div class="hyogo">
+                  <label for="form__mask__image">>兵庫県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+              </div>
+              <div class="kinki-right">
+                <div class="kinki-right-upper">
+                  <div class="kyoto">
+                    <label for="form__mask__image">京都府</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="shiga">
+                    <label for="form__mask__image">>滋賀県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="kinki-right-center">
+                  <div class="osaka">
+                    <label for="form__mask__image">大阪府</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="nara">
+                    <label for="form__mask__image">奈良県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="mie">
+                    <label for="form__mask__image">三重県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="kinki-right-lowwer">
+                  <div class="wakayama">
+                    <label for="form__mask__image">和歌山県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="chubu">
+              <div class="chubu-upper">
+                <div class="fukui">
+                  <label for="form__mask__image">福井県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image"> %>
+                </div>
+                <div class="ishikawa">
+                  <label for="form__mask__image">石川県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image"> %>
+                </div>
+                <div class="toyama">
+                  <label for="form__mask__image">>富山県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image"> %>
+                </div>
+                <div class="niigata">
+                  <label for="form__mask__image">新潟県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+              </div>
+              <div class="chubu-center">
+                <div class="chubu-center-left">
+                  <div class="gifu">
+                    <label for="form__mask__image">岐阜県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="chubu-center-right">
+                  <div class="nagano">
+                    <label for="form__mask__image">長野県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="yamanashi">
+                    <label for="form__mask__image">山梨県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+              </div>
+              <div class="chubu-lowwer">
+                <div class="aichi">
+                  <label for="form__mask__image">愛知県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+                <div class="shizuoka">
+                  <label for="form__mask__image">静岡県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
+        <div class="right">
+          <div class="right-eastjapan">
+            <div class="hokkaido">
+              <div class="hokkaido">
+                <label for="form__mask__image">北海道</label>
+                <input class="hidden" type="file" name="message[image]" id="message_image"> %>
+              </div>
+            </div>
+
+            <div class="tohoku">
+              <div class="tohoku-upper">
+                <div class="aomori">
+                  <label for="form__mask__image">青森県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+              </div>
+              <div class="tohoku-center">
+                <div class="tohoku-center-left">
+                  <div class="akita">
+                    <label for="form__mask__image">秋田県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="yamagata">
+                    <label for="form__mask__image">山形県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="tohoku-center-right">
+                  <div class="iwate">
+                    <label for="form__mask__image">岩手県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="miyagi">
+                    <label for="form__mask__image">宮城県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+              </div>
+              <div class="tohoku-lowwer">
+                <div class="fukushima">
+                  <label for="form__mask__image">福島県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+              </div>
+            </div>
+
+            <div class="kanto">
+              <div class="kanto-upper">
+                <div class="gunma">
+                  <label for="form__mask__image">群馬県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+                <div class="tochigi">
+                  <label for="form__mask__image">栃木県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+                <div class="ibaraki">
+                  <label for="form__mask__image">茨城県</label>
+                  <input class="hidden" type="file" name="message[image]" id="message_image">
+                </div>
+              </div>
+              <div class="kanto-lowwer">
+                <div class="kanto-lowwer-left">
+                  <div class="saitama">
+                    <label for="form__mask__image">埼玉県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="tokyo">
+                    <label for="form__mask__image">>東京都</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                  <div class="kanagawa">
+                    <label for="form__mask__image">神奈川県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+                <div class="kanto-lowwer-right">
+                  <div class="chiba">
+                    <label for="form__mask__image">>千葉県</label>
+                    <input class="hidden" type="file" name="message[image]" id="message_image">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
 
 
-
+ <%# class="grid-6" %>
     
   </body>
 </html>

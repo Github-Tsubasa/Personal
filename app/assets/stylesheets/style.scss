@@ -204,358 +204,410 @@
 
 .japanese-archipelago{
   background-color: skyblue;
-  width: 100%;
 
   .prefecture{
     // float: right;
     text-align: center;
-    height: 100%;
-    width: 100%;
+    // height: 100%;
+    // width: 100%;
+    display: flex;
+    padding: 20px 20px 20px 20px;
 
-    .upper{
-      .hokkaido{
-        .hokkaido{
-          height: 150px;
-          width: 400px;
-          background-color: yellowgreen;
-        }
-      }
+    .left{
+      // position: relative;
+      // display: flex;
 
-      .tohoku{
-        padding-top: 40px;
 
-        .upper{
-          .aomori{
-            height: 100px;
-            width: 260px;
-            background-color: yellowgreen;
-          }
-        }
-        .center{
-          display: flex;
-          .left{
-            .akita{
-              height: 150px;
-              width: 120px;
-              background-color: yellowgreen;
-            }
-            .yamagata{
-              height: 150px;
-              width: 120px;
-              background-color: yellowgreen;
-            }
-          }
-          .right{
-            .iwate{
-              height: 150px;
-              width: 150px;
-              background-color: yellowgreen;
-            }
-            .miyagi{
-              height: 150px;
-              width: 140px;
-              background-color: yellowgreen;
-            }
-          }
-        }
-        .lowwer{
-          .fukushima{
-            height: 100px;
-            width: 240px;
-            background-color: yellowgreen;
-          }
-        }
-      }
-      
-      .kanto{
-        .upper{
-          display: flex;
-          .gunma{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-          .tochigi{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-          .ibaraki{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-        }
-        .lower{
-          display: flex;
+      height: 100%;
+      width: 100%;
 
-          .left{
-            .saitama{
+
+      .left-westjapan{
+        display: flex;
+        // align-items: flex-end;
+
+        margin-top: 620px;
+
+        // position: absolute;
+        // right: 0;
+        // bottom: 0;
+        // height: 100%;
+        // width: 100%;
+        justify-content: flex-end;
+        // position: ;
+
+        .kyushu{
+          padding-right: 30px;
+
+          .kyushu-upper{
+              display: flex;
+              justify-content: flex-end;
+
+            .fukuoka{
               height: 50px;
-              width: 120px;
-              background-color: yellowgreen;
-            }
-            .tokyo{
-              height: 50px;
-              width: 120px;
-              background-color: yellowgreen;
-            }
-            .kanagawa{
-              height: 50px;
-              width: 90px;
-              background-color: yellowgreen;
-            }  
-          }
-          .right{
-            .chiba{
-              height: 160px;
-              width: 120px;
-              background-color: yellowgreen;
-            }
-          }
-        }
-      }
-    }
-    .lowwer{
-      display: flex;
-      .chubu{
-        .upper{
-          display: flex;
-          .fukui{
-            height: 50px;
-            width: 70px;
-            background-color: yellowgreen;
-          }
-          .ishikawa{
-            height: 50px;
-            width: 70px;
-            background-color: yellowgreen;
-          }
-          .toyama{
-            height: 50px;
-            width: 70px;
-            background-color: yellowgreen;
-          }
-          .niigata{
-            height: 50px;
-            width: 90px;
-            background-color: yellowgreen;
-          }
-        }
-        .center{
-          display: flex;
-          .left{
-            .gifu{
-              height: 150px;
               width: 200px;
               background-color: yellowgreen;
             }
           }
-          .right{
-            .nagano{
-              height: 100px;
-              width: 100px;
-              background-color: yellowgreen;
-            }
-            .yamanashi{
-              height: 50px;
-              width: 100px;
-              background-color: yellowgreen;
-            }
-          }
-        }
-        .lowwer{
-          display: flex;
-          .aichi{
-            height: 50px;
-            width: 100px;
-            background-color: yellowgreen;
-          }
-          .shizuoka{
-            height: 50px;
-            width: 200px;
-            background-color: yellowgreen;
-          }
-        }
-      }
+            // justify-content: ;
 
-      .kinki{
-        display: flex;
+          .kyushu-center{
+            .center-upper{
+              display: flex;
 
-        .left{
-          .hyogo{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
+              .nagasaki{
+                height: 80px;
+                width: 90px;
+                background-color: yellowgreen;
+              }
+              .saga{
+                height: 100px;
+                width: 90px;
+                background-color: yellowgreen;
+              }
+              .oita{
+                height: 100px;
+                width: 90px;
+                background-color: yellowgreen;
+              }
+            }
+            .center-lowwer{
+              display: flex;
+              justify-content: flex-end;
+
+              .kumamoto{
+                height: 100px;
+                width: 120px;
+                background-color: yellowgreen;
+              }
+              .miyazaki{
+                height: 100px;
+                width: 100px;
+                background-color: yellowgreen;
+              }
+            }
           }
-        }
-        .right{
-          .upper{
+
+          .kyushu-lowwer{
             display: flex;
+            justify-content: flex-end;
 
-            .kyoto{
+            .kagoshima{
               height: 50px;
-              width: 80px;
+              width: 150px;
               background-color: yellowgreen;
-            }
-            .shiga{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-          }
-          .center{
-            display: flex;
 
-            .osaka{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-            .nara{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-            .mie{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
             }
           }
-          .lowwer{
-            .wakayama{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-          }
-        }
-      }
 
-      .chugoku{
-        display: flex;
-        .left{
-          .yamaguchi{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-        }
-        .center{
-          .shimane{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-          .hiroshima{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-        }
-        .right{
-          .tottori{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-          .okayama{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-        }
-      }
-
-      .shikoku{
-        display: flex;
-        .left{
-            .ehime{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-            .kochi{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-          }
-        .right{
-          .kagawa{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-          .tokushima{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-        }
-      }
-
-      .kyushu{
-        .upper{
-          .fukuoka{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-        }
-
-        .center{
-          .center-upper{
-            display: flex;
-            .nagasaki{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-            .saga{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-            .oita{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-          }
-          .center-lowwer{
-            display: flex;
-            .kumamoto{
-              height: 50px;
-              width: 80px;
-              background-color: yellowgreen;
-            }
-            .miyazaki{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-            }
-          }
-        }
-
-        .lowwer{
-          .kagoshima{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
-          }
-        }
-
-        .okinawa{
           .okinawa{
-            height: 50px;
-            width: 80px;
-            background-color: yellowgreen;
+            .okinawa{
+              margin-top: 100px;
+              height: 100px;
+              width: 50px;
+              background-color: yellowgreen;
+            }
+          }
+        }
+
+        .chugoku-shikoku{
+          
+          .chugoku{
+            display: flex;
+            .chugoku-left{
+              .yamaguchi{
+                height: 120px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+            }
+            .chugoku-center{
+              .shimane{
+                height: 50px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+              .hiroshima{
+                height: 70px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+            }
+            .chugoku-right{
+              .tottori{
+                height: 50px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+              .okayama{
+                height: 70px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+            }
+          }
+
+          .shikoku{
+            // justify-content: center;
+            display: flex;
+            padding-top: 30px;
+            .shikoku-left{
+              .ehime{
+                height: 60px;
+                width: 110px;
+                background-color: yellowgreen;
+              }
+              .kochi{
+                height: 60px;
+                width: 110px;
+                background-color: yellowgreen;
+              }
+              }
+            .shikoku-right{
+              .kagawa{
+                height: 60px;
+                width: 110px;
+                background-color: yellowgreen;
+              }
+              .tokushima{
+                height: 60px;
+                width: 110px;
+                background-color: yellowgreen;
+              }
+            }
+          }
+        }
+
+        .kinki{
+          display: flex;
+
+          .kinki-left{
+            .hyogo{
+              height: 120px;
+              width: 80px;
+              background-color: yellowgreen;
+            }
+          }
+          .kinki-right{
+            .kinki-right-upper{
+              display: flex;
+
+              .kyoto{
+                height: 100px;
+                width: 120px;
+                background-color: yellowgreen;
+              }
+              .shiga{
+                height: 100px;
+                width: 120px;
+                background-color: yellowgreen;
+              }
+            }
+            .kinki-right-center{
+              display: flex;
+
+              .osaka{
+                height: 100px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+              .nara{
+                height: 100px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+              .mie{
+                height: 100px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+            }
+            .kinki-right-lowwer{
+              justify-content: center;
+              .wakayama{
+                height: 90px;
+                width: 150px;
+                background-color: yellowgreen;
+              }
+            }
+          }
+        }
+
+        .chubu{
+
+
+          .chubu-upper{
+            display: flex;
+            .fukui{
+              height: 50px;
+              width: 70px;
+              background-color: yellowgreen;
+            }
+            .ishikawa{
+              height: 50px;
+              width: 70px;
+              background-color: yellowgreen;
+            }
+            .toyama{
+              height: 50px;
+              width: 70px;
+              background-color: yellowgreen;
+            }
+            .niigata{
+              height: 50px;
+              width: 90px;
+              background-color: yellowgreen;
+            }
+          }
+          .chubu-center{
+            display: flex;
+            .chubu-center-left{
+              .gifu{
+                height: 150px;
+                width: 150px;
+                background-color: yellowgreen;
+              }
+            }
+            .chubu-center-right{
+              .nagano{
+                height: 100px;
+                width: 150px;
+                background-color: yellowgreen;
+              }
+              .yamanashi{
+                height: 50px;
+                width: 150px;
+                background-color: yellowgreen;
+              }
+            }
+          }
+          .chubu-lowwer{
+            display: flex;
+            .aichi{
+              height: 70px;
+              width: 100px;
+              background-color: yellowgreen;
+            }
+            .shizuoka{
+              height: 50px;
+              width: 200px;
+              background-color: yellowgreen;
+            }
           }
         }
       }
     }
+
+
+    .right{
+      .right-eastjapan{
+        .hokkaido{
+          .hokkaido{
+            height: 100px;
+            width: 210px;
+            background-color: yellowgreen;
+          }
+        }
+
+        .tohoku{
+          padding-top: 40px;
+
+          .tohoku-upper{
+            .aomori{
+              height: 100px;
+              width: 180px;
+              background-color: yellowgreen;
+            }
+          }
+          .tohoku-center{
+            display: flex;
+            .tohoku-center-left{
+              .akita{
+                height: 150px;
+                width: 100px;
+                background-color: yellowgreen;
+              }
+              .yamagata{
+                height: 150px;
+                width: 100px;
+                background-color: yellowgreen;
+              }
+            }
+            .tohoku-center-right{
+              .iwate{
+                height: 150px;
+                width: 100px;
+                background-color: yellowgreen;
+              }
+              .miyagi{
+                height: 150px;
+                width: 90px;
+                background-color: yellowgreen;
+              }
+            }
+          }
+          .tohoku-lowwer{
+            .fukushima{
+              height: 100px;
+              width: 200px;
+              background-color: yellowgreen;
+            }
+          }
+        }
+        
+        .kanto{
+          .kanto-upper{
+            display: flex;
+            .gunma{
+              height: 70px;
+              width: 80px;
+              background-color: yellowgreen;
+            }
+            .tochigi{
+              height: 70px;
+              width: 70px;
+              background-color: yellowgreen;
+            }
+            .ibaraki{
+              height: 70px;
+              width: 60px;
+              background-color: yellowgreen;
+            }
+          }
+          .kanto-lowwer{
+            display: flex;
+
+            .kanto-lowwer-left{
+              .saitama{
+                height: 50px;
+                width: 120px;
+                background-color: yellowgreen;
+              }
+              .tokyo{
+                height: 50px;
+                width: 120px;
+                background-color: yellowgreen;
+              }
+              .kanagawa{
+                height: 60px;
+                width: 90px;
+                background-color: yellowgreen;
+              }  
+            }
+            .kanto-lowwer-right{
+              .chiba{
+                height: 140px;
+                width: 80px;
+                background-color: yellowgreen;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+
   }
 }
 
