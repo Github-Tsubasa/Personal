@@ -1,38 +1,28 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-## userテーブル
+## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
 |email|string|null: false, unique: true|
 |passward|string|null: false, unique: true|
 
 ## Association
-has_many :prefecture
+has_many :prefectures_users
+has_many :prefectures, through: :prefectures_users
 
-## prefectureテーブル
+
+
+## prefectures_usersテーブル
+|Column|Type|Options|
+|------|----|-------|
+|users_id|integer|null: false, foreign_key: true|
+|prefectures_id|integer||
+
+## Association
+belongs_to :prefecture
+belongs_to :user
+
+
+
+## prefecturesテーブル
 |Column|Type|Options|
 |------|----|-------|
 |hokkaido|string||
@@ -84,4 +74,5 @@ has_many :prefecture
 |okinawa|string||
 
 ## Association
-belongs_to :user
+has_many :prefectures_users
+has_many :users, through: :prefectures_users
