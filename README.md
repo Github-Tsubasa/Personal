@@ -14,7 +14,7 @@ has_many :prefectures, through: :prefectures_users
 |Column|Type|Options|
 |------|----|-------|
 |users_id|integer|null: false, foreign_key: true|
-|prefectures_id|integer||
+|prefectures_id|string|foreign_key: true|
 
 ## Association
 belongs_to :prefecture
