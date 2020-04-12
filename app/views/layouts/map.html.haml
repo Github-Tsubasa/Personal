@@ -1,0 +1,144 @@
+
+!!!
+%html
+  %body
+    %meta{:charset => "UTF-8"}/
+    %title Waq-Waq
+    %header.header
+      .header__bar.row
+        %h1.grid-6
+          %a{:href => "/"} Waq-Waq
+        %h2 思い出で「日本」を埋め尽くそう
+    .japanese-archipelago
+      .prefecture
+        .hokkaido
+          .hokkaido
+            %a{:href => "/"} 北海道
+          %label{:for => "form__mask__image"} 北海道:
+          %input#message_image.hidden{:name => "message[image]", :type => "file"}/
+        .tohoku
+          .upper
+            .aomori
+              %a{:href => "/"} 青森県
+          .center
+            .left
+              .akita
+                %a{:href => "/"} 秋田県
+              .yamagata
+                %a{:href => "/"} 山形県
+            .right
+              .iwate
+                %a{:href => "/"} 岩手県
+              .miyagi
+                %a{:href => "/"} 宮城県
+          .lowwer
+            .fukushima
+              %a{:href => "/"} 福島県
+        .kanto
+          .upper
+            .gunma
+              %a{:href => "/"} 群馬県
+            .tochigi
+              %a{:href => "/"} 栃木県
+            .ibaraki
+              %a{:href => "/"} 茨城県
+          .lower
+            .left
+              .saitama
+                %a{:href => "/"} 埼玉県
+              .tokyo
+                %a{:href => "/"} 東京都
+              .kanagawa
+                %a{:href => "/"} 神奈川県
+            .right
+              .chiba
+                %a{:href => "/"} 千葉県
+        .chubu
+          .upper
+            .fukui
+              %a{:href => "/"} 福井県
+            .ishikawa
+              %a{:href => "/"} 石川県
+            .toyama
+              %a{:href => "/"} 富山県
+            .niigata
+              %a{:href => "/"} 新潟県
+          .center
+            .gifu
+              %a{:href => "/"} 岐阜県
+            .nagano
+              %a{:href => "/"} 長野県
+            .yamanashi
+              %a{:href => "/"} 山梨県
+          .lowwer
+            .aichi
+              %a{:href => "/"} 愛知県
+            .shizuoka
+              %a{:href => "/"} 静岡県
+        .kinki
+          .left
+            .hyogo
+              %a{:href => "/"} 兵庫県
+          .right
+            .upper
+              .kyoto
+                %a{:href => "/"} 京都府
+              .shiga
+                %a{:href => "/"} 滋賀県
+            .center
+              .osaka
+                %a{:href => "/"} 大阪府
+              .nara
+                %a{:href => "/"} 奈良県
+              .mie
+                %a{:href => "/"} 三重県
+            .lowwer
+              .wakayama
+                %a{:href => "/"} 和歌山県
+        .chugoku
+          .left
+            .yamaguchi
+              %a{:href => "/"} 山口県
+          .center
+            .shimane
+              %a{:href => "/"} 島根県
+            .hiroshima
+              %a{:href => "/"} 広島県
+          .right
+            .tottori
+              %a{:href => "/"} 鳥取県
+            .okayama
+              %a{:href => "/"} 岡山県
+        .shikoku
+          .left
+            .ehime
+              %a{:href => "/"} 愛媛県
+            .kochi
+              %a{:href => "/"} 高知県
+          .right
+            .kagawa
+              %a{:href => "/"} 香川県
+            .tokushima
+              %a{:href => "/"} 徳島県
+        .kyushu
+          .upper
+            .fukuoka
+              %a{:href => "/"} 福岡県
+            .saga
+              %a{:href => "/"} 佐賀県
+            .nagasaki
+              %a{:href => "/"} 長崎県
+          .center
+            .kumamoto
+              %a{:href => "/"} 熊本県
+            .oita
+              %a{:href => "/"} 大分県
+          .lowwer
+            .miyazaki
+              %a{:href => "/"} 宮崎県
+            .kagoshima
+              %a{:href => "/"} 鹿児島県
+          .okinawa
+            .okinawa
+              %a{:href => "/"} 沖縄県
+%html= yield
