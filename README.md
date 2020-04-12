@@ -13,7 +13,7 @@ has_many :prefectures, through: :prefectures_users
 ## prefectures_usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|users_id|integer|null: false, foreign_key: true|
+|users_id|integer|foreign_key: true|
 |prefectures_id|string|foreign_key: true|
 
 ## Association
