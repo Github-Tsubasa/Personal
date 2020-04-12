@@ -67,4 +67,6 @@ gem 'pry-rails'
 gem 'compass-rails', '3.1.0'
 gem 'sprockets', '3.7.2'
 
+gem 'haml-rails'
+
 gem 'devise'
