@@ -1,6 +1,11 @@
 class MessagesController < ApplicationController
   def index
-    @group = Group.new
-    # @group.users << current_user
+    @message = Message.new
+    @messages = @group.messages.includes(:user)
   end
+
+
+
+
+  
 end

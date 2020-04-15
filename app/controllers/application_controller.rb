@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
 
   def index
-    @tweets = Tweet.all
+    @users = User.all
   end
 
   protect_from_forgery with: :exception

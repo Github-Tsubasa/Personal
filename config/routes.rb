@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   # get 'messages/index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  get 'posts', to: 'posts#index'
-
+  get 'users', to: 'users#index'
+  root "users#index"
 
   devise_for :users
 
